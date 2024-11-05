@@ -36,6 +36,10 @@ nav {
     height: auto;
 }
 
+.bold{
+    font-weight: 900;
+}
+
 .csi-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -456,6 +460,10 @@ footer img {
 }
 
 @media only screen and (max-width: 768px) {
+    #intro-text {
+        margin-top: 80px;
+    }
+
     footer {
         padding: 0px 0px;
     }
