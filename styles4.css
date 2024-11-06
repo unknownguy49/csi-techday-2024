@@ -490,9 +490,79 @@ footer img {
     }
 }
 
+@media (min-width: 373px) and (max-width: 392px) {
+    #main{
+        height: 1100px;
+    }
+
+    .nav-links{
+        gap: 10px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+    }
+  }
+  
+  @media (min-width: 348px) and (max-width: 373px) {
+    #main{
+        height: 1200px;
+    }
+
+    .nav-links{
+        gap: 8px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+    }
+  }
+
+  @media (min-width: 336px) and (max-width: 348px) {
+    #main{
+        height: 1250px;
+    }
+
+    .nav-links{
+        gap: 5px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+    }
+  }
+
+  @media (min-width: 325px) and (max-width: 336px) {
+    #main{
+        height: 1300px;
+    }
+
+    .nav-links{
+        gap: 1px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 325px) {
+    #main{
+        height: 1450px;
+    }
+
+    .nav-links{
+        gap: 0.1px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+    }
+  }
+
 @media (max-width: 320px) {
     #main {
-        height: 1350px;
+        height: 1550px;
     }
 
     .nav-links{
